@@ -1,3 +1,11 @@
+# ps2dev-docker
+
+A Docker image for building PlayStation 2 homebrew applications using PS2SDK.
+Based on [ps2dev/ps2dev-docker](https://github.com/ps2dev/ps2dev-docker) with
+changes to support building my projects.
+
+## Original readme.txt
+```
  ====================
   What does this do?
  ====================
@@ -36,3 +44,4 @@
  Load the image:
 
    docker load < bzip2 -dc ps2dev-docker.tar.bz2
+```
