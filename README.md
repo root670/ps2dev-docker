@@ -1,5 +1,9 @@
 # ps2dev-docker
 
+![BSD-2 License](https://img.shields.io/badge/license-BSD--2-blue.svg)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/root670/ps2dev-docker.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/root670/ps2dev-docker.svg)
+
 A Docker image for building PlayStation 2 homebrew applications using PS2SDK.
 Based on [ps2dev/ps2dev-docker](https://github.com/ps2dev/ps2dev-docker) with
 changes to support building my projects.
