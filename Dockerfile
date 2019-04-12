@@ -12,7 +12,7 @@ ENV PATH="${PATH}:${PS2DEV}/bin:${PS2DEV}/ee/bin:${PS2DEV}/iop/bin:${PS2DEV}/dvp
 RUN \
   apk update && \
   apk upgrade && \
-  apk add --no-cache bash gcc git make musl-dev patch ucl-dev wget zlib-dev
+  apk add --no-cache bash gcc git make musl-dev patch ucl-dev wget zlib-dev zip
 
 SHELL ["/bin/bash", "-c"]
 
